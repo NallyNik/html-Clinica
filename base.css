@@ -11,28 +11,108 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
+
+.menu {
+    width: 15%;
+    background-color: rgba(5, 108, 108, 0.5);
+    padding: 10px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    padding: 4%;
+    border-radius: 1rem;
+    border-color: rgb(5, 108, 108);
+    opacity: 0.8;
+}
+button:hover {
+    opacity: 1;
+}
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
-.menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
-}
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background: -webkit-linear-gradient(rgb(5, 108, 108), white);
     min-height: 150px;
+    color: rgb(5, 108, 108);
+    display: flex;
+    text-align: center;
 }
+.titulo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img {
+    width: 15%;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
-    padding: 20px;
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.texto-descricao {
+    text-align: center;  
+}
+.schedule {
+    text-align: center;
+}
+table thead {
+    background-color: rgb(5, 108, 108);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: rgba(5, 108, 108, 0.5);
+}
+
+fieldset {
+    border-radius: 1rem;
+}
+.telefones {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 0 5%;
+}
+.endereco {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+.contato {
+    display: flex;
+    justify-content: center;
+    padding: 2% 5%;
+}
+input {
+    display: flex;
+    width: 400px;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 1rem;
+}
+.button-contato {
+    width: 210px;
+    padding: 1%;
+    background-color: rgba(5, 108, 108, 0.5); 
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background: -webkit-linear-gradient(white, rgb(5, 108, 108));
+    color: rgb(5, 108, 108);
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 2%;
 }

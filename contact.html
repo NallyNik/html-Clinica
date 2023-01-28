@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature - Saúde e Bem Estar</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="menu">
+            <button type="menu" name="inicial" onclick="window.location.href='./index.html'"></a>Página Inicial</button>
+            <button type="menu" name="inicial" onclick="window.location.href='./about.html'">Sobre</button>
+            <button type="menu" name="inicial" onclick="window.location.href='./schedule.html'">Horários</button>
+            <button type="menu" name="inicial" onclick="window.location.href='./contact.html'">Contato</button>
+        </nav>
+        
+        <main class="main">
+            <div >
+                <header class="header">
+                    <img id="maos"
+                        alt="Imagem de mãos massageando"
+                        src="./assets/maos.jpg"/>
+                    <div class="titulo">
+                        <h1>Contato</h1>
+                    </div>
+                </header>
+
+                <section class="content">
+                     <fieldset class="telefones">
+                        <legend>Telefones</legend>
+                        <p>Ligação gratuita: 0800 700 2876</p>
+                        <p>Whatsapp: (41) 95784 2514</p>
+                    </fieldset>
+
+                    <br>
+                    
+                    <fieldset class="endereco">
+                        <legend>Endereço</legend>
+                        <div>
+                            <p>R. Heitor Stockler de França, 396 - CJ 1301<br>
+                            Centro, Curitiba - PR, 80030-030</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.541164325648!2d-49.2685498!3d-25.420165100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce41756930087%3A0xeb89a78f1c802e88!2sNature%20%26%20Vitta!5e0!3m2!1spt-BR!2sbr!4v1674855696257!5m2!1spt-BR!2sbr"
+                            id="iframe" width="400"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>    
+                    </fieldset>
+                    
+                    <br>
+
+                    <fieldset class="contato">
+                        <legend>Contato</legend>
+                        <form method="post" autocomplete="on">
+                            <label for="nome">Nome completo:</label>
+                            <input id="nome" type="text" required/><br>
+                            <label for="email">e-mail:</label>
+                            <input id="email" type="email" required/><br>
+                            <label for="assunto">Assunto:</label>
+                            <input id="assunto" type="text"/><br>
+                            <label>Mensagem:</label><br>
+                            <textarea id="mensagem" rows="10" cols="54" placeholder="Deixe sua mensagem aqui"></textarea><br>
+                            <button type="reset" id="reset" class="button-contato">Reset</button>
+                            <button type="submit" id="submit" class="button-contato">Enviar</button>
+                        </form>
+                    </fieldset>
+                    
+                </section>
+
+                <footer class="footer">
+                    <div>
+                        <h5>
+                        NATURE CLINICA DE TRATAMENTOS SAUDÁVEIS LTDA. - CNPJ/MF 56.091.041/0001-07</br>
+                        R. Heitor Stockler de França, 396 - CJ 1301 - Centro, Curitiba - PR, 80030-030 
+                        </h5>
+                    </div>
+                    <div>
+                        <h5><strong>Ligações de celulares e fixos (ligação gratuita): 0800 700 2876</strong></h5>
+                        <h6><em>Todos os preços e condições deste site são válidos apenas para compras no site.</em></h6>
+                    </div>
+                </footer>
+            </div>
+        </main>
+        
+    </div>
+</body>
+</html>
