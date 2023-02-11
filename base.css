@@ -1,4 +1,4 @@
-html, body {
+* {
     margin: 0;
 }
 body {
@@ -23,7 +23,7 @@ body {
 button {
     padding: 4%;
     border-radius: 1rem;
-    border-color: rgb(5, 108, 108);
+    border: 5px outset rgb(5, 108, 108);
     opacity: 0.8;
 }
 button:hover {
@@ -31,47 +31,47 @@ button:hover {
 }
 
 .main {
-    display: flex;
-    flex-flow: column;
     width: 85%;
 }
 
 .header {
     background: -webkit-linear-gradient(rgb(5, 108, 108), white);
-    min-height: 150px;
+    height: 150px;
     color: rgb(5, 108, 108);
     display: flex;
-    text-align: center;
 }
 .titulo {
     width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: auto;
+}
+figure {
+    width: 150px;
+    height: 150px;
 }
 img {
-    width: 15%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .content {
     background-color: white;
     min-height: 300px;
-    padding: 2% 10%;
+    padding: 5% 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: justify;
 }
 
-.texto-descricao {
-    text-align: center;  
-}
-.schedule {
+.texto-descricao, .schedule {
     text-align: center;
+    padding: 2%;
 }
 table thead {
     background-color: rgb(5, 108, 108);
     color: white;
+    text-align: center;
 }
 tr:nth-child(even) {
     background-color: rgba(5, 108, 108, 0.5);
@@ -113,6 +113,6 @@ input {
     color: rgb(5, 108, 108);
     display: flex;
     justify-content: space-between;
-    min-height: 100px;
+    min-height: 50px;
     padding: 2%;
 }
